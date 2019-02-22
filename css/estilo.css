@@ -1,0 +1,404 @@
+@media screen and (max-width: 768px){ /* Todo este código para ese tamaño*/
+
+*{
+	margin:	0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+header {
+    background-image: url(../imagenes/pack_png_de_lali_esposito__by_ariitinista02-d77241d_768*1024.jpg);
+    background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+    height: 100vh;
+}
+
+header .container {
+	background-color: #1c2628;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 1% 5% 1% 15%;
+}
+
+.redes{
+	display: none;
+}
+
+
+header	img{
+	width: 30%;
+
+
+}
+
+.menu {
+    color: #fff;
+    font-size: 2.5rem;
+    padding-right: 5%;
+
+}
+
+header nav{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0%;
+    top: -2000%;
+    background-image: url(../imagenes/soy_h_2.jpg);
+    background-size: cover;
+	background-attachment: fixed;
+	background-position: right;
+    height: 100vh;
+    transition: all 0.9s;
+}
+
+header nav ul {
+	text-align: center;
+	padding-top: 30%;
+    
+}
+
+header nav ul li {
+	padding-top: 5%;
+
+}
+
+header nav ul li a {
+	font-family: montserrat;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #000;
+}
+
+header nav ul.redes-dos {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+header nav ul.redes-dos li{
+	padding-right: 5%;
+}
+
+
+.cerrar {
+    display: block;
+    color: #000;
+    font-size: 3rem;
+    position: absolute;
+    left: 82%;
+    top: 1.5%;
+}
+
+/*--MUSICA--*/
+
+
+ol{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.brava{
+	background-image: url(../imagenes/b_r_a_v_a.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	padding-top: 45%;
+	padding-left: 10%;
+}
+
+.soy{
+	background-image: url(../imagenes/s_o_y.jpg);
+	background-position: top;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 45%;
+	padding-left: 10%;
+}
+
+.a_bailar{
+	background-image: url(../imagenes/a_b_a_i_l_a_r.jpg);
+	background-position: top;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 45%;
+	padding-left: 10%;
+
+
+}
+
+.tapa img{
+	width: 90%;
+}
+
+.tapa_uno img{
+	width: 90%;
+}
+
+.tapa_dos img{
+	width: 90%;
+}
+
+
+/*--HISTORIA--*/
+
+#historia{
+	display: flex;
+	background-image: url(../imagenes/lali768*1024.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.texto_historia{
+	height: 35rem;
+	width: 40rem;
+	border: 0.1rem dotted black;
+	color: black;
+	overflow: scroll;
+	padding: 5% 5% 5% 5%;
+	margin: 15% 10% 0% 10%;
+	background-color: rgba(255,255,255,0.6);
+	font-family: montserrat;
+}
+
+.texto_historia p{
+	text-align: center;
+	font-size: 1.1rem;
+	line-height: 1.6rem;
+	font-weight: 400;
+}
+
+h2.subtitulos_historia{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 2.3rem;
+	font-weight: 300;
+	color: black;
+	text-align: center;
+	line-height: 3rem;
+}
+
+p.item{
+	font-size: 1rem;
+	padding-top: 1rem;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.texto_historia li{
+	font-size: 1rem;
+	text-align: center;
+	padding-top: 3%;
+	font-weight: 500;
+}
+
+/*--IMAGENES--*/
+
+
+.galeria{
+	display: flex;
+	flex-direction: column;
+}
+
+.uno{
+	display: none;
+}
+
+.dos{
+	background-image: url(../imagenes/K4A3375-copia.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 85vh;
+	width: 100vw;
+}
+
+.tres{
+	display: none;
+}
+
+.cuatro{
+	display: none;
+}
+
+.cinco{
+	background-image: url(../imagenes/lali_h.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 85vh;
+	width: 100vw;
+}
+
+.seis{
+	display: none;
+}
+
+.siete{
+	display: none;
+}
+
+.ocho{
+	display: none;
+}
+
+.nueve{
+	background-image: url(../imagenes/K4A3676-copia_400x400.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 85vh;
+	width: 100vw;
+}
+
+.diez{
+	display: none;
+}
+
+
+/*--GRACIAS--*/
+
+
+.gracias{
+	background-image: url(../imagenes/g_r_a_c_i_a_s_768_1024.jpg);
+	background-size: cover;
+	background-position: left;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5%;
+}
+
+h3.gracias_texto{
+	font-family: montserrat;
+	font-weight: 100;
+	font-size: 2.5rem;
+	text-align: left;
+	color: #fff;
+	padding-left: 5%;
+	padding-top: 55;
+	line-height: 3.5rem;
+}
+
+
+.gracias img{
+	width: 15%;
+	display: flex;
+	margin-left: 5%;
+	padding-top: 2%;
+}
+
+/*--FOOTER--*/
+
+.fondo{
+	background-image: url(../imagenes/lalidiecisiete.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 80vh;
+}
+
+/*--FORMULARIO--*/
+
+.container_dos {
+  background-color: #c0000d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10% 0% 10% 10%;
+}
+
+
+h4{
+	font-family: montserrat;
+	font-weight: 200;
+	font-size: 2.5rem;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 5%;
+}
+
+input[type=text], select, textarea {
+  width: 130%;
+  padding: 2%;
+  border: 0.05rem solid #FFF;
+  font-size: 1rem;
+
+}
+
+label {
+	font-family: montserrat;
+  padding: 5% 0% 5% 0%;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  float: left;
+  padding: 4%;
+  margin-top: 10%;
+  margin-left: 100%;
+  font-size: 1rem;
+}
+
+.final h5{
+	font-family: montserrat;
+	font-weight: 100;
+	font-size: 1rem;
+	text-align: left;
+	color: #fff;
+	padding-left: 10%;
+}
+
+.final img{
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.final ul{
+	display: inline-flex;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+.final ul li {
+padding-right: 10%;
+}
+
+.final ul li a{
+	font-size: 3rem;
+	color: white;
+}
+
+.final ul li a:visited{
+	color: #fff;
+}
+
+
+h6{
+	font-family: montserrat;
+	color: white;
+	font-size: 0.8rem;
+	font-weight: 100;
+	text-align: left;
+	line-height: 1.5rem;
+	padding-top: 5%;
+	margin-right: 12%;
+	padding-left: 3%;
+
+}
+
+
+}

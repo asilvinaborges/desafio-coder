@@ -1,0 +1,446 @@
+/*--PC--*/
+
+
+
+@media screen and (min-width: 1025px){  /*Todo este código para ese tamaño*/
+
+*{
+	margin:	0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+/*--MENU--*/
+
+
+header {
+    background-image: url(../imagenes/pack_png_de_lali_esposito__by_ariitinista02-d77241d.jpg);
+    background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+    height: 100vh;
+}
+
+header .container {
+	background-color: #1c2628;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 1% 5% 1% 5%;
+}
+
+.redes ul{
+	display: inline-flex;
+
+}
+
+.redes ul li {
+	padding-right: 20%;
+}
+
+.redes ul li a{
+	font-size: 1.5rem;
+	color: white;
+}
+
+.redes ul li a:visited{
+	color: #fff;
+}
+
+.menu {
+    color: #fff;
+    font-size: 2.5rem;
+    padding-right: 5%;
+
+}
+
+header	img{
+	width: 30%;
+
+}
+
+header nav{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0%;
+    top: -2000%;
+    background-image: url(../imagenes/soy_h_2_2.jpg);
+    background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+    height: 100vh;
+    transition: all 0.9s;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    
+}
+
+header nav ul li {
+	padding-top: 1%;
+
+}
+
+header nav ul li a {
+	font-family: montserrat;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #000;
+}
+
+
+header nav ul.redes-dos {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+header nav ul.redes-dos li a{
+	padding-right: 80%;
+}
+
+
+.cerrar {
+    display: block;
+    color: #000;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 88%;
+    top: 5%;
+}
+
+
+/*--MUSICA--*/
+
+
+ol{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.a_bailar{
+	background-image: url(../imagenes/a_b_a_i_l_a_r.jpg);
+	background-position: top;
+	height: 100vh;
+	width: 50vw;
+	padding-top: 10%;
+	padding-left: 10%;
+}
+
+.soy{
+	background-image: url(../imagenes/s_o_y.jpg);
+	background-position: top;
+	height: 100vh;
+	width: 50vw;
+	padding-top: 10%;
+	padding-left: 8%;
+}
+
+
+.brava{
+	background-image: url(../imagenes/b_r_a_v_a.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	padding-top: 10%;
+	padding-left: 32%;
+}
+
+.tapa img{
+	width: 50%;
+}
+
+.tapa_uno img{
+	width: 80%;
+}
+
+.tapa_dos img{
+	width: 84%;
+}
+
+/*--HISTORIA--*/
+
+#historia{
+	display: flex;
+	background-image: url(../imagenes/lali.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.texto_historia{
+	height: 35rem;
+	width: 40rem;
+	border: 0.1rem dotted black;
+	color: black;
+	overflow: scroll;
+	padding: 5% 5% 5% 5%;
+	margin: 5% 10% 0% 45%;
+	background-color: rgba(255,255,255,0.75);
+	font-family: montserrat;
+}
+
+.texto_historia p{
+	text-align: center;
+	font-size: 1.1rem;
+	line-height: 1.6rem;
+	font-weight: 200;
+}
+
+h2.subtitulos_historia{
+	padding-bottom: 2rem;
+	font-size: 2.3rem;
+	font-weight: 300;
+	color: black;
+	text-align: center;
+	line-height: 3rem;
+}
+
+
+p.item{
+	font-size: 1rem;
+	padding-top: 1rem;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.texto_historia li{
+	font-size: 1rem;
+	text-align: center;
+	padding-top: 3%;
+	font-weight: 500;
+}
+
+
+/*--IMAGENES--*/
+
+
+.galeria{
+	display: grid;
+	grid-template-columns: 10% 20% 10% 30% 10% 20%;
+	grid-template-rows: 230px 230px 230px;
+	grid-template-areas: "sil fer fer fer naty naty" 
+						 "agus fer fer fer leo leo"
+						 "lidia mario pato pato gime gia";
+}
+
+
+
+
+.uno{
+	grid-area: sil;
+	background-image: url(../imagenes/soy_f_400X40.jpg);
+	background-size: cover;
+	background-position: top;
+
+}
+
+.dos{
+	grid-area: fer;
+	background-image: url(../imagenes/soy_r.jpg);
+	background-position: top;
+	background-size: cover;
+}
+
+.tres{
+	grid-area: naty;
+	background-image: url(../imagenes/sinquerer_b.jpg);
+	background-size: cover;
+}
+
+.cuatro{
+	grid-area: agus;
+	background-image: url(../imagenes/lali_retro_a.jpeg);
+	background-size: cover;
+}
+
+.cinco{
+	grid-area: leo;
+	background-image: url(../imagenes/lali_h.jpg);
+	background-size: cover;
+}
+
+.seis{
+	grid-area: lidia;
+	background-image: url(../imagenes/lali_f.jpg);
+	background-size: cover;
+}
+
+.siete{
+	grid-area: mario;
+	background-image: url(../imagenes/lali_a.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.ocho{
+	grid-area: pato;
+	background-image: url(../imagenes/Copia-de-a-bailarcuatro.jpg);
+	background-size: cover;
+}
+
+.nueve{
+	grid-area: gime;
+	background-image: url(../imagenes/K4A3676-copia_400x400.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.diez{
+	grid-area: gia;
+	background-image: url(../imagenes/tunovia_b.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*--GRACIAS--*/
+
+
+.gracias{
+	background-image: url(../imagenes/g_r_a_c_i_a_s.jpg);
+	background-size: cover;
+	background-position: left;
+	background-attachment: fixed;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5%;
+}
+
+h3.gracias_texto{
+	font-family: montserrat;
+	font-weight: 100;
+	font-size: 3rem;
+	text-align: left;
+	color: #fff;
+	padding-left: 5%;
+	padding-top: 55;
+	line-height: 4rem;
+}
+
+
+.gracias img{
+	width: 5%;
+	display: flex;
+	margin-left: 5%;
+	padding-top: 2%;
+}
+
+/*--FOOTER--*/
+
+.fondo{
+	background-image: url(../imagenes/lalidiecisiete.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 80vh;
+}
+
+/*--FORMULARIO--*/
+
+.container_dos {
+  background-color: #c0000d;
+  padding: 5% 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer h4{
+	font-family: montserrat;
+	font-weight: 200;
+	font-size: 2.5rem;
+	text-align: left;
+	color: #fff;
+	padding-bottom: 5%;
+}
+
+input[type=text], select, textarea {
+  width: 150%;
+  padding: 2%;
+  border: 0.05rem solid #FFF;
+  font-size: 1rem;
+
+}
+
+label {
+	font-family: montserrat;
+  padding: 5% 0% 5% 0%;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  float: left;
+  padding: 4%;
+  margin-top: 10%;
+  margin-left: 121.5%;
+  font-size: 1rem;
+}
+
+.final h5{
+	font-family: montserrat;
+	font-weight: 100;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #fff;
+}
+
+.final img{
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.final ul{
+	display: inline-flex;
+	padding-top: 5%;
+	padding-left: 18%;
+}
+
+.final ul li {
+padding-right: 10%;
+}
+
+.final ul li a{
+	font-size: 3rem;
+	color: white;
+}
+
+.final ul li a:visited{
+	color: #fff;
+}
+
+
+h6{
+	font-family: montserrat;
+	color: white;
+	font-size: 0.8rem;
+	font-weight: 100;
+	text-align: center;
+	line-height: 1.5rem;
+	padding-top: 5%;
+}
+
+.lali_dos{
+	width: 5%;
+	margin-left: 2%;
+}
+
+}
